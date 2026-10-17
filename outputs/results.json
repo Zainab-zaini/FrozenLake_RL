@@ -1,0 +1,27 @@
+{
+    "environment": "FrozenLake-v1",
+    "is_slippery": false,
+    "algorithm": "Tabular Q-learning",
+    "training_episodes": 5000,
+    "evaluation_episodes": 500,
+    "success_rate": 1.0,
+    "average_steps": 6.0,
+    "final_epsilon": 0.02,
+    "gif_reward": 1,
+    "gif_steps": 6,
+    "learning_rate_comparison": {
+        "0.05": {
+            "success_rate": 1.0,
+            "average_steps": 6.0
+        },
+        "0.1": {
+            "success_rate": 1.0,
+            "average_steps": 6.0
+        },
+        "0.2": {
+            "success_rate": 1.0,
+            "average_steps": 6.0
+        }
+    },
+    "seed": 42
+}
